@@ -1,0 +1,37 @@
+//Suyashi Tiwari
+//24070123115
+#include <iostream>
+using namespace std;
+int swapFirst(int x, int y) {
+    int temp = x;
+    x = y;
+    y = temp;
+    return x; 
+}
+
+int swapSecond(int x, int y) {
+    int temp = x;
+    x = y;
+    y = temp;
+    return y; 
+}
+
+int main() {
+    int a = 5, b = 2;
+
+    cout << "Before Swap: a = " << a << ", b = " << b << endl;
+
+
+    int newA = swapFirst(a, b);
+    int newB = swapSecond(a, b);
+
+    cout << "After Swap : a = " << newA << ", b = " << newB << endl;
+
+    return 0;
+}
+/*OUTPUT:
+Before Swap: a = 5, b = 2
+After Swap : a = 2, b = 5
+
+
+=== Code Execution Successful ===*/
