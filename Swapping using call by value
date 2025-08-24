@@ -2,36 +2,19 @@
 //24070123115
 #include <iostream>
 using namespace std;
-int swapFirst(int x, int y) {
-    int temp = x;
-    x = y;
-    y = temp;
-    return x; 
+void swap(int x,int y){
+    int temp;
+    temp=x;
+    x=y;
+    y=temp;
 }
-
-int swapSecond(int x, int y) {
-    int temp = x;
-    x = y;
-    y = temp;
-    return y; 
-}
-
 int main() {
-    int a = 5, b = 2;
-
-    cout << "Before Swap: a = " << a << ", b = " << b << endl;
-
-
-    int newA = swapFirst(a, b);
-    int newB = swapSecond(a, b);
-
-    cout << "After Swap : a = " << newA << ", b = " << newB << endl;
-
-    return 0;
+    int a=20,b=50;
+    swap(a,b);
+    cout<<a<<endl<<b;
 }
-/*OUTPUT:
-Before Swap: a = 5, b = 2
-After Swap : a = 2, b = 5
-
-
+/*
+output:
+20
+50
 === Code Execution Successful ===*/
