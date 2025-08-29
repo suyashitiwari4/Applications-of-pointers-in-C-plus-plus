@@ -1,7 +1,7 @@
 # Aim: To study and implement Pointer Operations (Call by value and Call by reference)
 
 # Software Required:
-Viusal Studio
+VS Code
 
 # Theory:
 
